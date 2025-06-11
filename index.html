@@ -1,91 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Minha Página Web</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neymar de Volta ao Santos</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
+      background-color: #f8f9fa;
+      color: #343a40;
       margin: 0;
       padding: 0;
     }
-
     header {
       background-color: #007bff;
       color: white;
       padding: 20px;
       text-align: center;
     }
-
-    nav {
-      background-color: #0056b3;
-      color: white;
-      padding: 10px;
-      text-align: center;
+    header img {
+      width: 100px;
+      border-radius: 50%;
     }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 10px;
-    }
-
     main {
       padding: 20px;
     }
-
+    .image-container {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .image-container img {
+      width: 80%;
+      max-width: 600px;
+      border-radius: 10px;
+    }
     footer {
-      background-color: #333;
+      background-color: #343a40;
       color: white;
       text-align: center;
-      padding: 15px;
+      padding: 10px;
       position: fixed;
       bottom: 0;
       width: 100%;
     }
-
-    button {
-      background-color: #007bff;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      margin-top: 10px;
-      cursor: pointer;
+    a {
+      color: #007bff;
+      text-decoration: none;
     }
-
-    button:hover {
-      background-color: #0056b3;
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Bem-vindo à Minha Página</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Bra-Cos_%281%29_%28cropped%29.jpg" alt="Neymar Jr.">
+    <h1>Neymar Jr. está de volta ao Santos FC!</h1>
   </header>
 
-  <nav>
-    <a href="#">Início</a>
-    <a href="#">Sobre</a>
-    <a href="#">Contato</a>
-  </nav>
-
   <main>
-    <h2>Olá, mundo!</h2>
-    <p>Esta é uma página de exemplo criada com HTML, CSS e JavaScript.</p>
-    <button onclick="mostrarAlerta()">Clique aqui</button>
+    <section>
+      <h2>O Retorno do Ídolo</h2>
+      <p>Após uma passagem marcante pelo futebol europeu, Neymar Jr. retorna ao Santos FC, clube que o revelou para o mundo. O craque reassume a histórica camisa 10, prometendo reviver momentos inesquecíveis na Vila Belmiro.</p>
+    </section>
+
+    <div class="image-container">
+      <img src="https://www.santosfc.com.br/wp-content/uploads/2025/01/Assumindo-a-10-de-Rei-Pelé-ídolo-Neymar-Jr.-está-de-volta-ao-Santos-FC.jpg" alt="Neymar com a camisa do Santos">
+    </div>
+
+    <section>
+      <h2>Expectativa da Torcida</h2>
+      <p>A torcida santista está em êxtase com o retorno de Neymar. O jogador expressou sua felicidade em voltar à sua casa e prometeu empenho máximo para conquistar títulos e alegrar os fãs.</p>
+    </section>
+
+    <div class="image-container">
+      <img src="https://www.santosfc.com.br/wp-content/uploads/2025/01/Neymar-realiza-sessão-de-fotos-com-a-camisa-do-Santos.jpg" alt="Neymar durante sessão de fotos">
+    </div>
+
+    <section>
+      <h2>Links Relevantes</h2>
+      <ul>
+        <li><a href="https://www.santosfc.com.br/assumindo-a-10-de-rei-pele-idolo-neymar-jr-esta-de-volta-ao-santos-fc/" target="_blank">Leia mais no site oficial do Santos FC</a></li>
+        <li><a href="https://www.uol.com.br/esporte/futebol/ultimas-noticias/2025/01/31/neymar-diz-que-nao-imaginava-voltar-ao-santos-agora-surgiu-oportunidade.htm" target="_blank">Entrevista de Neymar sobre seu retorno</a></li>
+      </ul>
+    </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 - Minha Página Simples</p>
+    <p>&copy; 2025 Santos Futebol Clube</p>
   </footer>
-
-  <script>
-    function mostrarAlerta() {
-      alert("Você clicou no botão!");
-    }
-  </script>
 </body>
 </html>
